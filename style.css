@@ -1,0 +1,138 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.top-container {
+    background-color: #1F2937;
+    color: white;
+    padding: 40px 10%;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family:'Roboto Medium', sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-box ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+}
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.main-text {
+    font-size: 48px;
+    font-family:'Roboto Black', sans-serif;
+}
+.subtext {
+    font-size: 18px;
+}
+.main-top {
+    display: flex;
+    align-items: center;
+}
+.main-top-left {
+    flex-direction: column;
+    padding-right: 90px;
+}
+.main-top-right {
+    justify-content: flex-end;
+}
+.button {
+    padding: 10px 30px;
+    font-family: 'Roboto Medium', sans-serif;
+    font-size: 20px;
+    background-color: #3882F6;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+}
+#nature {
+    width: 400px;
+    justify-content: flex-end;
+}
+
+.info {
+    padding: 30px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Roboto Black', sans-serif;
+}
+.gallery {
+    display: flex;
+    text-align: center;
+    padding: 50px 10%;
+}
+.gallery img {
+    max-width: 200px;
+    max-height: auto;
+    border-radius: 10px;
+}
+
+.caption {
+    padding: 0 30px;
+}
+
+.quote { 
+    background-color: #E5E7EB;
+    padding: 10px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+.quote blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-family: 'Roboto Light', sans-serif;
+}
+.author {
+    margin-right: 12%;
+    font-size: 18px;
+    font-weight: 800;
+}
+.border {
+    display: flex;
+    background-color: #3882f6;
+    margin: 8% 15%;
+    padding: 40px 0;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.action-heading {
+    font-size: 24px;
+    font-weight: 700
+}
+
+.action-button {
+    padding: 5px 30px;
+    font-size: 18px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.footer {
+    background-color:#1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
